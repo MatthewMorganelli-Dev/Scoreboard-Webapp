@@ -1,0 +1,40 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="index.css">
+        
+    </head>
+    <body>
+        <div class="container">
+            <div class="scoreKeeperContainer">
+                <h3 class="teamTitle">HOME</h3>
+                <div id="htScore">
+               <p id="hScore"></p>
+               </div>
+               <div class="buttonContainer">
+               <button class="selButton" onclick="hScoreAdd(1)">+1</button>
+               <button class="selButton" onclick="hScoreAdd(2)">+2</button>
+               <button class="selButton" onclick="hScoreAdd(3)">+3</button>
+               </div>
+               <div>
+                <button id="resetHome" onclick="hScoreReset()">Reset</button>
+               </div>
+            </div>
+            <div class="scoreKeeperContainer">
+                 <h3 class="teamTitle">AWAY</h3>
+                <div id="htScore">
+               <p id="aScore">00</p>
+               </div>
+               <div class="buttonContainer">
+               <button class="selButton" onclick="aScoreAdd(1)">+1</button>
+               <button class="selButton" onclick="aScoreAdd(2)">+2</button>
+               <button class="selButton" onclick="aScoreAdd(3)">+3</button>
+               </div>
+               <div>
+                <button id="resetAway" onclick="aScoreReset()">Reset</button>
+               </div>
+            </div>
+        </div>
+        <script src="index.js"></script>
+    <script src="index.js"></script>
+    </body>
+</html>
